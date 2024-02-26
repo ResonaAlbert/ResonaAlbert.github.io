@@ -1,0 +1,45 @@
+; 初始场景，以及特效演示
+bgm:bgm1.mp3;
+unlockBgm:bgm1.mp3 -name=雲を追いかけて;
+intro:测试|感谢游玩 120yen的Chrismas;
+changeBg:BG.jpg -next;
+unlockCg:BG.jpg -name=良夜; // 解锁CG并赋予名称
+changeFigure:C1.png -center -next;
+setAnimation:enter-from-center -target=fig-center;
+; -next;
+; WebGAL:欢迎使用 WebGAL！这是一款全新的网页端视觉小说引擎。 -v1.wav -fontSize=default;
+miniAvatar:C1.png;
+Rena:哇，好时尚的咖啡厅！ -fontSize=default;
+这里的甜点期待好久了！;
+男主:是呢，听朋友说是一个这边新开的相当有名气的新店;
+Rena:对对，最近特别有名气的甜品专门店，在INS上关注很久了！;
+听说每季度都换很多新甜点。快看看菜单上有什么好吃的;
+男主:诶~~ 我就算了吧，一杯Shakerato就行了，甜点之类的也尝不出什么特别大的区别;
+（服务员走过来）;
+Rena: 诶！多可惜，听说这里热门时间要排的时间比全米兰唯一一家星巴克还久，就点一杯咖啡多可惜！
+你看你看！这个蛋糕看起来好有设计感，不知道是什么味道;
+阿，这个闪电泡芙也好好吃，好难选阿，但是都很好奇啊，好纠结啊;
+男主:好好好，那我也点一个，这样你可以多尝到几个味道。
+服务员:Ciao! che cosa volrei?;
+男主: Ciao, voglio un Shakerato e quelle torta;
+服务员:Ve bene! e Signora?;
+Rena:啊~~ 真的好难选择，这些都想好好看，都想试一下。
+Ah, io voglio un chocolate tisamisu, un Profiterole.
+服务员:e bevande?;
+Rena: Rosso Te, por favor;
+服务员: Basta?
+Rena: Si, grazie.
+（服务员离开）;
+Rena:啊，好期待实际的味道啊，每次购物都会在这店的橱窗看很久，人生没有遗憾了！;
+男主:你的人生好短，喂！话说点这么多真的大丈夫嘛？感觉我都不一定能吃下，小心长胖啊;
+Rena:哼！女人的甜点都是装在第二个胃里地说~;
+而且我每天做饭打扫卫生都有好好锻炼呦，没有长胖哦;
+男主:(小声)明明之前洗完澡就站在体重秤上唉声叹气好久，还捏了捏肚子;
+Rena:(脸红); 
+！！！！;
+setAnimation:shake -target=fig-center -next;
+我没有叹气，也没有捏肚子！;
+话说你怎么知道的！你一定偷偷偷看了浴室了对吧！对吧！你个大色狼！！！我晚上要做你最讨厌吃的螺狮粉！;
+男主:哪有！明明是你在浴室待太长时间了，我想进去上厕所在外面等太久。
+而且你也知道家里的浴室墙壁很薄，声音能听得一清二楚;
+Rena:不信不信不信，你绝对偷看了！;
